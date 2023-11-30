@@ -1,5 +1,5 @@
 const axios = require('axios');
-const HttpError = require('../HttpException');
+const HttpError = require('../errors');
 
 const headers = {
   'Content-Type': 'application/json',

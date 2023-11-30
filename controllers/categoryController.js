@@ -1,6 +1,6 @@
 const Category = require("../models/Category");
 const { StatusCodes } = require("http-status-codes");
-const HttpError = require("../HttpException");
+const HttpError = require("../errors");
 
 const createCategory = async (req, res) => {
     const { name, description } = req.body;

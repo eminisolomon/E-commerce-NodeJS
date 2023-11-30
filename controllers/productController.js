@@ -1,6 +1,6 @@
 const Product = require('../models/Product');
 const { StatusCodes } = require('http-status-codes');
-const HttpError = require('../HttpException');
+const HttpError = require('../errors');
 
 const createProduct = async (req, res, next) => {
     try {

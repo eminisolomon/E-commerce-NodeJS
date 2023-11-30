@@ -1,6 +1,6 @@
 const Banner = require("../models/Banner");
 const { StatusCodes } = require("http-status-codes");
-const HttpError = require("../HttpException");
+const HttpError = require("../errors");
 const cloudinary = require("../config/cloudinary")
 
 const createBanner = async (req, res, next) => {

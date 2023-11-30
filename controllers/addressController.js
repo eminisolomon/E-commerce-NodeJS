@@ -1,7 +1,7 @@
 const Address = require("../models/Address");
 const User = require("../models/User");
 const { StatusCodes } = require("http-status-codes");
-const HttpError = require("../HttpException");
+const HttpError = require("../errors");
 
 const addShippingAddress = async (req, res) => {
     const { addressLine1, addressLine2, city, state, country, postalCode } = req.body;

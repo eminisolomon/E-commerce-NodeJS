@@ -1,6 +1,6 @@
 const User = require("../models/User");
 const { StatusCodes } = require("http-status-codes");
-const HttpError = require("../HttpException");
+const HttpError = require("../errors");
 const { createJWT } = require("../utils");
 const generateRandomPassword = require("../utils/password");
 const bcrypt = require("bcryptjs");

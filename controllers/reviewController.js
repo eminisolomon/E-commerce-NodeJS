@@ -1,7 +1,7 @@
 const Review = require('../models/Review');
 const Product = require('../models/Product');
 const { StatusCodes } = require('http-status-codes');
-const HttpError = require('../HttpException');
+const HttpError = require('../errors');
 const { authorizeUser } = require('../utils');
 
 const createReview = async (req, res) => {

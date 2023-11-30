@@ -1,4 +1,4 @@
-const HttpError = require("../HttpException");
+const HttpError = require("../errors");
 
 const authorizeUser = (currentUser, currentUserId) => {
   if (currentUser.userId === currentUserId.toString()) return;

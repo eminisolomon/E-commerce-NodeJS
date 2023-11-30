@@ -1,7 +1,7 @@
 const Order = require('../models/Order');
 const Product = require('../models/Product');
 const { StatusCodes } = require('http-status-codes');
-const HttpError = require('../HttpException');
+const HttpError = require('../errors');
 const { authorizeUser } = require('../utils');
 
 const createOrder = async (req, res) => {

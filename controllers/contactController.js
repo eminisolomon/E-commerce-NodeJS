@@ -1,4 +1,4 @@
-const HttpError = require("../HttpException");
+const HttpError = require("../errors");
 const sendEmail = require("../utils/sendEmail");
 
 const sendContact = async (req, res) => {
