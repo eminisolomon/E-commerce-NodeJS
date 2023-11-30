@@ -44,7 +44,7 @@ E-commerce-NodeJS is a NodeJS-based e-commerce project designed to provide a fou
 4. Start the development server:
 
    ```bash
-   npm run start
+   npm run dev
 
 ### Contributing
 
